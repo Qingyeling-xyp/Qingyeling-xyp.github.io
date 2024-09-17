@@ -47,6 +47,8 @@
 &lt;p&gt;分类图片可以放在文件夹上一级&lt;/p&gt;
 &lt;p&gt;会自动匹配    - [计算机科学，Java, test]  比如这个可以房子啊  cover.jpg 可以放在 java 文件夹下&lt;/p&gt;
 &lt;p&gt;这样就将可以  翻转图片就是文件夹而不是某个文章&lt;/p&gt;
+&lt;p&gt;22:07&lt;/p&gt;
+&lt;p&gt;hexo new page &amp;quot;about&amp;quot;  关于我创建&lt;/p&gt;
 </content>
         <category term="计算机科学" scheme="http://example.com/categories/computer-science/" />
         <category term="Java" scheme="http://example.com/categories/computer-science/java/" />
