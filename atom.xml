@@ -14,9 +14,9 @@
     <category term="xyp" />
     <category term="xyb" />
     <entry>
-        <id>http://example.com/2024/09/17/hexo-shokaX%E7%9A%84%E6%97%A5%E5%BF%97/</id>
+        <id>http://example.com/2024/09/17/computer-science/java/test/hexo-shokaX%E7%9A%84%E6%97%A5%E5%BF%97/</id>
         <title>hexo-shokaX的日志</title>
-        <link rel="alternate" href="http://example.com/2024/09/17/hexo-shokaX%E7%9A%84%E6%97%A5%E5%BF%97/"/>
+        <link rel="alternate" href="http://example.com/2024/09/17/computer-science/java/test/hexo-shokaX%E7%9A%84%E6%97%A5%E5%BF%97/"/>
         <content type="html">&lt;h1 id=&#34;ok这里是日志&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ok这里是日志&#34;&gt;#&lt;/a&gt; OK 这里是日志&lt;/h1&gt;
 &lt;h2 id=&#34;2024914-057&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2024914-057&#34;&gt;#&lt;/a&gt; 2024/9/14  0:57&lt;/h2&gt;
 &lt;p&gt;现在列表数据测试成功 [hello world\ 测试 \docker]&lt;/p&gt;
@@ -30,7 +30,7 @@
 &lt;p&gt;Zeabur  docker 镜像问题 等后续解决&lt;/p&gt;
 &lt;p&gt;腾讯云服务 懂的都懂&lt;/p&gt;
 &lt;p&gt;可以尝试独立部署&lt;/p&gt;
-&lt;h2 id=&#34;twikoo&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#twikoo&#34;&gt;#&lt;/a&gt; [Twikoo]&lt;/h2&gt;
+&lt;h3 id=&#34;twikoo&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#twikoo&#34;&gt;#&lt;/a&gt; [Twikoo]&lt;/h3&gt;
 &lt;p&gt;mongoDb Atilas  注册成功 数据库创建成功  root\&lt;/p&gt;
 &lt;p&gt;Hugging Face 部署成功  但是会导致秘钥泄露 github 无法部署上传&lt;/p&gt;
 &lt;p&gt;netlify  部署失败 github 链接不上  后面链接上了 (用的小号)   多少同 hugging Face&lt;/p&gt;
@@ -43,6 +43,10 @@
 &lt;p&gt;搞了俩分类   一个计算机杂谈   一个次元阁 (不是... 我没有 (眼神躲闪).... 嘤嘤嘤 (我真的不是死宅))&lt;/p&gt;
 &lt;p&gt;21:11&lt;/p&gt;
 &lt;p&gt;写了三个分类  shoka\ 前端 \ 后端&lt;/p&gt;
+&lt;p&gt;21:56&lt;/p&gt;
+&lt;p&gt;分类图片可以放在文件夹上一级&lt;/p&gt;
+&lt;p&gt;会自动匹配    - [计算机科学，Java, test]  比如这个可以房子啊  cover.jpg 可以放在 java 文件夹下&lt;/p&gt;
+&lt;p&gt;这样就将可以  翻转图片就是文件夹而不是某个文章&lt;/p&gt;
 </content>
         <category term="计算机科学" scheme="http://example.com/categories/computer-science/" />
         <category term="Java" scheme="http://example.com/categories/computer-science/java/" />
@@ -209,7 +213,7 @@
 </content>
         <category term="计算机科学" scheme="http://example.com/categories/computer-science/" />
         <category term="Java" scheme="http://example.com/categories/computer-science/java/" />
-        <category term="Dcoker" scheme="http://example.com/categories/computer-science/java/docker/" />
+        <category term="Docker" scheme="http://example.com/categories/computer-science/java/Docker/" />
         <category term="后端" scheme="http://example.com/tags/java/" />
         <updated>2024-09-13T16:49:40.000Z</updated>
     </entry>
