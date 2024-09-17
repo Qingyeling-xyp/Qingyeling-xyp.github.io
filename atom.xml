@@ -8,11 +8,49 @@
     <author>
       <name>清野凛</name>
     </author>
-    <updated>2024-09-17T09:54:10.000Z</updated>
+    <updated>2024-09-17T10:08:43.000Z</updated>
     <category term="QIngyeling" />
     <category term="Qingyelin" />
     <category term="xyp" />
     <category term="xyb" />
+    <entry>
+        <id>http://example.com/2024/09/17/hexo-shokaX%E7%9A%84%E6%97%A5%E5%BF%97/</id>
+        <title>hexo-shokaX的日志</title>
+        <link rel="alternate" href="http://example.com/2024/09/17/hexo-shokaX%E7%9A%84%E6%97%A5%E5%BF%97/"/>
+        <content type="html">&lt;h1 id=&#34;ok这里是日志&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ok这里是日志&#34;&gt;#&lt;/a&gt; OK 这里是日志&lt;/h1&gt;
+&lt;h2 id=&#34;2024914-057&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2024914-057&#34;&gt;#&lt;/a&gt; 2024/9/14  0:57&lt;/h2&gt;
+&lt;p&gt;现在列表数据测试成功 [hello world\ 测试 \docker]&lt;/p&gt;
+&lt;h2 id=&#34;2024915-1211&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2024915-1211&#34;&gt;#&lt;/a&gt; 2024/9/15 12:11&lt;/h2&gt;
+&lt;p&gt;这次把搜索引擎搞好了，评论系统有问题 vercel 加载慢要切换国内域名&lt;/p&gt;
+&lt;p&gt;14 号评论搞了一天各种都试过了&lt;/p&gt;
+&lt;h3 id=&#34;valine-系评论系统&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#valine-系评论系统&#34;&gt;#&lt;/a&gt; [valine 系评论系统]&lt;/h3&gt;
+&lt;p&gt;vercel 部署成功 加载慢&lt;/p&gt;
+&lt;p&gt;netlify  大成功  ohhhhhhhh!!!!!!!!!!!!!!!!!!!!!&lt;/p&gt;
+&lt;p&gt;Railway  找不到 sql 往哪里注入&lt;/p&gt;
+&lt;p&gt;Zeabur  docker 镜像问题 等后续解决&lt;/p&gt;
+&lt;p&gt;腾讯云服务 懂的都懂&lt;/p&gt;
+&lt;p&gt;可以尝试独立部署&lt;/p&gt;
+&lt;h2 id=&#34;twikoo&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#twikoo&#34;&gt;#&lt;/a&gt; [Twikoo]&lt;/h2&gt;
+&lt;p&gt;mongoDb Atilas  注册成功 数据库创建成功  root\&lt;/p&gt;
+&lt;p&gt;Hugging Face 部署成功  但是会导致秘钥泄露 github 无法部署上传&lt;/p&gt;
+&lt;p&gt;netlify  部署失败 github 链接不上  后面链接上了 (用的小号)   多少同 hugging Face&lt;/p&gt;
+&lt;p&gt;评论这一块搞了快十小时这么点背 555555........(菜就多练......hhh)&lt;/p&gt;
+&lt;p&gt;试了这么多终于对了.... 嘤嘤嘤 (╥╯^╰╥)&lt;/p&gt;
+&lt;h2 id=&#34;2024917-1801&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2024917-1801&#34;&gt;#&lt;/a&gt; 2024/9/17 18:01&lt;/h2&gt;
+&lt;p&gt;OK, 也是过上节了，家人们&lt;/p&gt;
+&lt;p&gt;中秋快乐 (烟花！烟花！! 烟花！! !)[狗头！哎嘿]&lt;/p&gt;
+&lt;p&gt;把分类熟悉了一下&lt;/p&gt;
+&lt;p&gt;搞了俩分类   一个计算机杂谈   一个次元阁 (不是... 我没有 (眼神躲闪).... 嘤嘤嘤 (我真的不是死宅))&lt;/p&gt;
+&lt;p&gt;21:11&lt;/p&gt;
+&lt;p&gt;写了三个分类  shoka\ 前端 \ 后端&lt;/p&gt;
+</content>
+        <category term="计算机科学" scheme="http://example.com/categories/computer-science/" />
+        <category term="Java" scheme="http://example.com/categories/computer-science/java/" />
+        <category term="test" scheme="http://example.com/categories/computer-science/java/test/" />
+        <category term="前端" scheme="http://example.com/tags/web/" />
+        <category term="shoka" scheme="http://example.com/tags/shoka/" />
+        <updated>2024-09-17T10:08:43.000Z</updated>
+    </entry>
     <entry>
         <id>http://example.com/2024/09/17/Dimension-Gate/Anime-Discussion/Music/%E5%8A%A8%E6%BC%AB%E9%9F%B3%E4%B9%90%E8%AE%B0%E5%BD%95/</id>
         <title>动漫音乐记录</title>
@@ -172,6 +210,7 @@
         <category term="计算机科学" scheme="http://example.com/categories/computer-science/" />
         <category term="Java" scheme="http://example.com/categories/computer-science/java/" />
         <category term="Dcoker" scheme="http://example.com/categories/computer-science/java/docker/" />
+        <category term="后端" scheme="http://example.com/tags/java/" />
         <updated>2024-09-13T16:49:40.000Z</updated>
     </entry>
     <entry>
