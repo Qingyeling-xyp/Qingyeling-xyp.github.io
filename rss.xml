@@ -3,8 +3,8 @@
     <channel>
         <title>清野凛</title>
         <subtitle>QIngyeling&#39;s の Blog</subtitle>
-        <icon>http://example.com/assets/favicon.ico</icon>
-        <link>http://example.com</link>
+        <icon>https://blog.qingyeling.cn/assets/favicon.ico</icon>
+        <link>https://blog.qingyeling.cn</link>
         <author>
           <name>清野凛</name>
         </author>
@@ -17,14 +17,14 @@
         <category term="xyp" />
         <category term="xyb" />
         <item>
-            <guid isPermalink="true">http://example.com/2024/09/17/computer-science/java/test/hexo-shokaX%E7%9A%84%E6%97%A5%E5%BF%97/</guid>
+            <guid isPermalink="true">https://blog.qingyeling.cn/2024/09/17/computer-science/java/test/hexo-shokaX%E7%9A%84%E6%97%A5%E5%BF%97/</guid>
             <title>hexo-shokaX的日志</title>
-            <link>http://example.com/2024/09/17/computer-science/java/test/hexo-shokaX%E7%9A%84%E6%97%A5%E5%BF%97/</link>
-            <category term="计算机科学" scheme="http://example.com/categories/computer-science/" />
-            <category term="Java" scheme="http://example.com/categories/computer-science/java/" />
-            <category term="test" scheme="http://example.com/categories/computer-science/java/test/" />
-            <category term="前端" scheme="http://example.com/tags/web/" />
-            <category term="shoka" scheme="http://example.com/tags/shoka/" />
+            <link>https://blog.qingyeling.cn/2024/09/17/computer-science/java/test/hexo-shokaX%E7%9A%84%E6%97%A5%E5%BF%97/</link>
+            <category term="计算机科学" scheme="https://blog.qingyeling.cn/categories/computer-science/" />
+            <category term="Java" scheme="https://blog.qingyeling.cn/categories/computer-science/java/" />
+            <category term="test" scheme="https://blog.qingyeling.cn/categories/computer-science/java/test/" />
+            <category term="前端" scheme="https://blog.qingyeling.cn/tags/web/" />
+            <category term="shoka" scheme="https://blog.qingyeling.cn/tags/shoka/" />
             <pubDate>Tue, 17 Sep 2024 18:08:43 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;ok这里是日志&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ok这里是日志&#34;&gt;#&lt;/a&gt; OK 这里是日志&lt;/h1&gt;
 &lt;h2 id=&#34;2024914-057&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2024914-057&#34;&gt;#&lt;/a&gt; 2024/9/14  0:57&lt;/h2&gt;
@@ -58,15 +58,17 @@
 &lt;p&gt;这样就将可以  翻转图片就是文件夹而不是某个文章&lt;/p&gt;
 &lt;p&gt;22:07&lt;/p&gt;
 &lt;p&gt;hexo new page &amp;quot;about&amp;quot;  关于我创建&lt;/p&gt;
+&lt;p&gt;23:19&lt;/p&gt;
+&lt;p&gt;音乐链接成功  要放合集链接&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2024/09/17/Dimension-Gate/Anime-Discussion/Music/%E5%8A%A8%E6%BC%AB%E9%9F%B3%E4%B9%90%E8%AE%B0%E5%BD%95/</guid>
+            <guid isPermalink="true">https://blog.qingyeling.cn/2024/09/17/Dimension-Gate/Anime-Discussion/Music/%E5%8A%A8%E6%BC%AB%E9%9F%B3%E4%B9%90%E8%AE%B0%E5%BD%95/</guid>
             <title>动漫音乐记录</title>
-            <link>http://example.com/2024/09/17/Dimension-Gate/Anime-Discussion/Music/%E5%8A%A8%E6%BC%AB%E9%9F%B3%E4%B9%90%E8%AE%B0%E5%BD%95/</link>
-            <category term="次元阁" scheme="http://example.com/categories/Dimension-Gate/" />
-            <category term="动漫杂谈" scheme="http://example.com/categories/Dimension-Gate/Anime-Discussion/" />
-            <category term="音乐" scheme="http://example.com/categories/Dimension-Gate/Anime-Discussion/Music/" />
+            <link>https://blog.qingyeling.cn/2024/09/17/Dimension-Gate/Anime-Discussion/Music/%E5%8A%A8%E6%BC%AB%E9%9F%B3%E4%B9%90%E8%AE%B0%E5%BD%95/</link>
+            <category term="次元阁" scheme="https://blog.qingyeling.cn/categories/Dimension-Gate/" />
+            <category term="动漫杂谈" scheme="https://blog.qingyeling.cn/categories/Dimension-Gate/Anime-Discussion/" />
+            <category term="音乐" scheme="https://blog.qingyeling.cn/categories/Dimension-Gate/Anime-Discussion/Music/" />
             <pubDate>Tue, 17 Sep 2024 17:54:10 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;次元阁&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#次元阁&#34;&gt;#&lt;/a&gt; 次元阁&lt;/h1&gt;
 &lt;h2 id=&#34;动漫杂谈&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#动漫杂谈&#34;&gt;#&lt;/a&gt; 动漫杂谈&lt;/h2&gt;
@@ -75,24 +77,24 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2024/09/14/computer-science/java/test/%E6%B5%8B%E8%AF%95%E5%8A%A0%E8%BD%BD/</guid>
+            <guid isPermalink="true">https://blog.qingyeling.cn/2024/09/14/computer-science/java/test/%E6%B5%8B%E8%AF%95%E5%8A%A0%E8%BD%BD/</guid>
             <title>Test</title>
-            <link>http://example.com/2024/09/14/computer-science/java/test/%E6%B5%8B%E8%AF%95%E5%8A%A0%E8%BD%BD/</link>
-            <category term="计算机科学" scheme="http://example.com/categories/computer-science/" />
-            <category term="Java" scheme="http://example.com/categories/computer-science/java/" />
-            <category term="test" scheme="http://example.com/categories/computer-science/java/test/" />
+            <link>https://blog.qingyeling.cn/2024/09/14/computer-science/java/test/%E6%B5%8B%E8%AF%95%E5%8A%A0%E8%BD%BD/</link>
+            <category term="计算机科学" scheme="https://blog.qingyeling.cn/categories/computer-science/" />
+            <category term="Java" scheme="https://blog.qingyeling.cn/categories/computer-science/java/" />
+            <category term="test" scheme="https://blog.qingyeling.cn/categories/computer-science/java/test/" />
             <pubDate>Sat, 14 Sep 2024 00:53:54 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;测试加载&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#测试加载&#34;&gt;#&lt;/a&gt; 测试加载&lt;/h1&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2024/09/14/computer-science/java/docker/Docker%E7%9A%84%E5%AD%A6%E4%B9%A0/</guid>
+            <guid isPermalink="true">https://blog.qingyeling.cn/2024/09/14/computer-science/java/docker/Docker%E7%9A%84%E5%AD%A6%E4%B9%A0/</guid>
             <title>Docker的学习</title>
-            <link>http://example.com/2024/09/14/computer-science/java/docker/Docker%E7%9A%84%E5%AD%A6%E4%B9%A0/</link>
-            <category term="计算机科学" scheme="http://example.com/categories/computer-science/" />
-            <category term="Java" scheme="http://example.com/categories/computer-science/java/" />
-            <category term="Docker" scheme="http://example.com/categories/computer-science/java/Docker/" />
-            <category term="后端" scheme="http://example.com/tags/java/" />
+            <link>https://blog.qingyeling.cn/2024/09/14/computer-science/java/docker/Docker%E7%9A%84%E5%AD%A6%E4%B9%A0/</link>
+            <category term="计算机科学" scheme="https://blog.qingyeling.cn/categories/computer-science/" />
+            <category term="Java" scheme="https://blog.qingyeling.cn/categories/computer-science/java/" />
+            <category term="Docker" scheme="https://blog.qingyeling.cn/categories/computer-science/java/Docker/" />
+            <category term="后端" scheme="https://blog.qingyeling.cn/tags/java/" />
             <pubDate>Sat, 14 Sep 2024 00:49:40 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;docker的指令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#docker的指令&#34;&gt;#&lt;/a&gt; Docker 的指令&lt;/h1&gt;
 &lt;h2 id=&#34;docker的基本指令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#docker的基本指令&#34;&gt;#&lt;/a&gt; docker 的基本指令&lt;/h2&gt;
@@ -219,16 +221,62 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h1 id=&#34;docker的用法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#docker的用法&#34;&gt;#&lt;/a&gt; Docker 的用法&lt;/h1&gt;
+&lt;h2 id=&#34;docker的网络指令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#docker的网络指令&#34;&gt;#&lt;/a&gt; Docker 的网络指令&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;strong&gt;命令&lt;/strong&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;strong&gt;说明&lt;/strong&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;strong&gt;文档地址&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;docker network create&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;创建一个网络&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://docs.docker.com/engine/reference/commandline/network_create/&#34;&gt;docker network create&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;docker network ls&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;查看所有网络&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://docs.docker.com/engine/reference/commandline/network_ls/&#34;&gt;docs.docker.com&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;docker network rm&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;删除指定网络&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://docs.docker.com/engine/reference/commandline/network_rm/&#34;&gt;docs.docker.com&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;docker network prune&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;清除未使用的网络&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://docs.docker.com/engine/reference/commandline/network_prune/&#34;&gt;docs.docker.com&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;docker network connect&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;使指定容器连接加入某网络&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://docs.docker.com/engine/reference/commandline/network_connect/&#34;&gt;docs.docker.com&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;docker network disconnect&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;使指定容器连接离开某网络&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://docs.docker.com/engine/reference/commandline/network_disconnect/&#34;&gt;docker network disconnect&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;docker network inspect&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;查看网络详细信息&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://docs.docker.com/engine/reference/commandline/network_inspect/&#34;&gt;docker network inspect&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2024/09/13/computer-science/java/test/hello-world/</guid>
+            <guid isPermalink="true">https://blog.qingyeling.cn/2024/09/13/computer-science/java/test/hello-world/</guid>
             <title>Hello World</title>
-            <link>http://example.com/2024/09/13/computer-science/java/test/hello-world/</link>
-            <category term="计算机科学" scheme="http://example.com/categories/computer-science/" />
-            <category term="Java" scheme="http://example.com/categories/computer-science/java/" />
-            <category term="test" scheme="http://example.com/categories/computer-science/java/test/" />
+            <link>https://blog.qingyeling.cn/2024/09/13/computer-science/java/test/hello-world/</link>
+            <category term="计算机科学" scheme="https://blog.qingyeling.cn/categories/computer-science/" />
+            <category term="Java" scheme="https://blog.qingyeling.cn/categories/computer-science/java/" />
+            <category term="test" scheme="https://blog.qingyeling.cn/categories/computer-science/java/test/" />
             <pubDate>Fri, 13 Sep 2024 21:49:40 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;Welcome to &lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&#34;https://hexo.io/docs/&#34;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&#34;https://hexo.io/docs/troubleshooting.html&#34;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&#34;https://github.com/hexojs/hexo/issues&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
