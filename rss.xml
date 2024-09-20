@@ -10,12 +10,138 @@
         </author>
         <description>QIngyeling的编程日记</description>
         <language>zh-CN</language>
-        <pubDate>Tue, 17 Sep 2024 18:08:43 +0800</pubDate>
-        <lastBuildDate>Tue, 17 Sep 2024 18:08:43 +0800</lastBuildDate>
+        <pubDate>Thu, 19 Sep 2024 09:35:21 +0800</pubDate>
+        <lastBuildDate>Thu, 19 Sep 2024 09:35:21 +0800</lastBuildDate>
         <category term="QIngyeling" />
         <category term="Qingyelin" />
         <category term="xyp" />
         <category term="xyb" />
+        <item>
+            <guid isPermalink="true">https://blog.qingyeling.cn/2024/09/19/redis/</guid>
+            <title>redis</title>
+            <link>https://blog.qingyeling.cn/2024/09/19/redis/</link>
+            <pubDate>Thu, 19 Sep 2024 09:35:21 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;redis的命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#redis的命令&#34;&gt;#&lt;/a&gt; redis 的命令&lt;/h1&gt;
+&lt;h2 id=&#34;通用命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#通用命令&#34;&gt;#&lt;/a&gt; 通用命令&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;命令&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;注释&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;keys&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;查看符合模板的所有 key : keys *   keys a*&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;del&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;删除指定 key&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;exists&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;判断 key 是否存在&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;expire&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;给 key 设置一个有效期&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;ttl&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;查看 key 有效期&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;string命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#string命令&#34;&gt;#&lt;/a&gt; string 命令&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;命令&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;描述&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/set.html&#34;&gt;SET&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;设置指定 key 的值&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/get.html&#34;&gt;GET&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;获取指定 key 的值&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/getrange.html&#34;&gt;GETRANGE&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;返回 key 中字符串值的子字符&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/getset.html&#34;&gt;GETSET&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;将给定 key 的值设为 value ，并返回 key 的旧值 (old value)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/getbit.html&#34;&gt;GETBIT&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;对 key 所储存的字符串值，获取指定偏移量上的位 (bit)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/mget.html&#34;&gt;MGET&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;获取所有 (一个或多个) 给定 key 的值&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/setbit.html&#34;&gt;SETBIT&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;对 key 所储存的字符串值，设置或清除指定偏移量上的位 (bit)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/setex.html&#34;&gt;SETEX&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;设置 key 的值为 value 同时将过期时间设为 seconds&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/setnx.html&#34;&gt;SETNX&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;只有在 key 不存在时设置 key 的值&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/setrange.html&#34;&gt;SETRANGE&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;从偏移量 offset 开始用 value 覆写给定 key 所储存的字符串值&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/strlen.html&#34;&gt;STRLEN&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;返回 key 所储存的字符串值的长度&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/mset.html&#34;&gt;MSET&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;同时设置一个或多个 key-value 对&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/msetnx.html&#34;&gt;MSETNX&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;同时设置一个或多个 key-value 对&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/psetex.html&#34;&gt;PSETEX&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;以毫秒为单位设置 key 的生存时间&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/incr.html&#34;&gt;INCR&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;将 key 中储存的数字值增一&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/incrby.html&#34;&gt;INCRBY&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;将 key 所储存的值加上给定的增量值 (increment)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/incrbyfloat.html&#34;&gt;INCRBYFLOAT&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;将 key 所储存的值加上给定的浮点增量值 (increment)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/decr.html&#34;&gt;DECR&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;将 key 中储存的数字值减一&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/decrby.html&#34;&gt;DECRBY&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;将 key 所储存的值减去给定的减量值 ( decreme&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://blog.qingyeling.cn/2024/09/17/computer-science/java/test/hexo-shokaX%E7%9A%84%E6%97%A5%E5%BF%97/</guid>
             <title>hexo-shokaX的日志</title>
@@ -27,8 +153,25 @@
             <category term="shoka" scheme="https://blog.qingyeling.cn/tags/shoka/" />
             <pubDate>Tue, 17 Sep 2024 18:08:43 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;ok这里是日志&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ok这里是日志&#34;&gt;#&lt;/a&gt; OK 这里是日志&lt;/h1&gt;
-&lt;h2 id=&#34;2024914-057&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2024914-057&#34;&gt;#&lt;/a&gt; 2024/9/14  0:57&lt;/h2&gt;
-&lt;p&gt;现在列表数据测试成功 [hello world\ 测试 \docker]&lt;/p&gt;
+&lt;h2 id=&#34;2024920-1437&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2024920-1437&#34;&gt;#&lt;/a&gt; 2024/9/20 14:37&lt;/h2&gt;
+&lt;p&gt;添加了 bing、baidu 搜索&lt;/p&gt;
+&lt;h2 id=&#34;2024919-834&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2024919-834&#34;&gt;#&lt;/a&gt; 2024/9/19 8:34&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://xn--blog-uh5fn22au1gk13a5od.Qingyeling.cn&#34;&gt;域名更改为 blog.Qingyeling.cn&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;2024917-1801&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2024917-1801&#34;&gt;#&lt;/a&gt; 2024/9/17 18:01&lt;/h2&gt;
+&lt;p&gt;OK, 也是过上节了，家人们&lt;/p&gt;
+&lt;p&gt;中秋快乐 (烟花！烟花！! 烟花！! !)[狗头！哎嘿]&lt;/p&gt;
+&lt;p&gt;把分类熟悉了一下&lt;/p&gt;
+&lt;p&gt;搞了俩分类   一个计算机杂谈   一个次元阁 (不是... 我没有 (眼神躲闪).... 嘤嘤嘤 (我真的不是死宅))&lt;/p&gt;
+&lt;p&gt;21:11&lt;/p&gt;
+&lt;p&gt;写了三个分类  shoka\ 前端 \ 后端&lt;/p&gt;
+&lt;p&gt;21:56&lt;/p&gt;
+&lt;p&gt;分类图片可以放在文件夹上一级&lt;/p&gt;
+&lt;p&gt;会自动匹配    - [计算机科学，Java, test]  比如这个可以房子啊  cover.jpg 可以放在 java 文件夹下&lt;/p&gt;
+&lt;p&gt;这样就将可以  翻转图片就是文件夹而不是某个文章&lt;/p&gt;
+&lt;p&gt;22:07&lt;/p&gt;
+&lt;p&gt;hexo new page &amp;quot;about&amp;quot;  关于我创建&lt;/p&gt;
+&lt;p&gt;23:19&lt;/p&gt;
+&lt;p&gt;音乐链接成功  要放合集链接&lt;/p&gt;
 &lt;h2 id=&#34;2024915-1211&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2024915-1211&#34;&gt;#&lt;/a&gt; 2024/9/15 12:11&lt;/h2&gt;
 &lt;p&gt;这次把搜索引擎搞好了，评论系统有问题 vercel 加载慢要切换国内域名&lt;/p&gt;
 &lt;p&gt;14 号评论搞了一天各种都试过了&lt;/p&gt;
@@ -45,21 +188,8 @@
 &lt;p&gt;netlify  部署失败 github 链接不上  后面链接上了 (用的小号)   多少同 hugging Face&lt;/p&gt;
 &lt;p&gt;评论这一块搞了快十小时这么点背 555555........(菜就多练......hhh)&lt;/p&gt;
 &lt;p&gt;试了这么多终于对了.... 嘤嘤嘤 (╥╯^╰╥)&lt;/p&gt;
-&lt;h2 id=&#34;2024917-1801&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2024917-1801&#34;&gt;#&lt;/a&gt; 2024/9/17 18:01&lt;/h2&gt;
-&lt;p&gt;OK, 也是过上节了，家人们&lt;/p&gt;
-&lt;p&gt;中秋快乐 (烟花！烟花！! 烟花！! !)[狗头！哎嘿]&lt;/p&gt;
-&lt;p&gt;把分类熟悉了一下&lt;/p&gt;
-&lt;p&gt;搞了俩分类   一个计算机杂谈   一个次元阁 (不是... 我没有 (眼神躲闪).... 嘤嘤嘤 (我真的不是死宅))&lt;/p&gt;
-&lt;p&gt;21:11&lt;/p&gt;
-&lt;p&gt;写了三个分类  shoka\ 前端 \ 后端&lt;/p&gt;
-&lt;p&gt;21:56&lt;/p&gt;
-&lt;p&gt;分类图片可以放在文件夹上一级&lt;/p&gt;
-&lt;p&gt;会自动匹配    - [计算机科学，Java, test]  比如这个可以房子啊  cover.jpg 可以放在 java 文件夹下&lt;/p&gt;
-&lt;p&gt;这样就将可以  翻转图片就是文件夹而不是某个文章&lt;/p&gt;
-&lt;p&gt;22:07&lt;/p&gt;
-&lt;p&gt;hexo new page &amp;quot;about&amp;quot;  关于我创建&lt;/p&gt;
-&lt;p&gt;23:19&lt;/p&gt;
-&lt;p&gt;音乐链接成功  要放合集链接&lt;/p&gt;
+&lt;h2 id=&#34;2024914-057&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2024914-057&#34;&gt;#&lt;/a&gt; 2024/9/14  0:57&lt;/h2&gt;
+&lt;p&gt;现在列表数据测试成功 [hello world\ 测试 \docker]&lt;/p&gt;
  ]]></description>
         </item>
         <item>
