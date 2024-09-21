@@ -14,16 +14,16 @@
     <category term="xyp" />
     <category term="xyb" />
     <entry>
-        <id>https://blog.qingyeling.cn/2024/09/19/redis/</id>
-        <title>redis</title>
-        <link rel="alternate" href="https://blog.qingyeling.cn/2024/09/19/redis/"/>
+        <id>https://blog.qingyeling.cn/2024/09/19/computer-science/java/redis/redis%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/</id>
+        <title>redis基本命令</title>
+        <link rel="alternate" href="https://blog.qingyeling.cn/2024/09/19/computer-science/java/redis/redis%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/"/>
         <content type="html">&lt;h1 id=&#34;redis的命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#redis的命令&#34;&gt;#&lt;/a&gt; redis 的命令&lt;/h1&gt;
 &lt;h2 id=&#34;通用命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#通用命令&#34;&gt;#&lt;/a&gt; 通用命令&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th style=&#34;text-align:left&#34;&gt;命令&lt;/th&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;注释&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;描述&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
@@ -50,93 +50,11 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id=&#34;string命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#string命令&#34;&gt;#&lt;/a&gt; string 命令&lt;/h2&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;命令&lt;/th&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;描述&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/set.html&#34;&gt;SET&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;设置指定 key 的值&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/get.html&#34;&gt;GET&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;获取指定 key 的值&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/getrange.html&#34;&gt;GETRANGE&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;返回 key 中字符串值的子字符&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/getset.html&#34;&gt;GETSET&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;将给定 key 的值设为 value ，并返回 key 的旧值 (old value)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/getbit.html&#34;&gt;GETBIT&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;对 key 所储存的字符串值，获取指定偏移量上的位 (bit)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/mget.html&#34;&gt;MGET&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;获取所有 (一个或多个) 给定 key 的值&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/setbit.html&#34;&gt;SETBIT&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;对 key 所储存的字符串值，设置或清除指定偏移量上的位 (bit)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/setex.html&#34;&gt;SETEX&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;设置 key 的值为 value 同时将过期时间设为 seconds&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/setnx.html&#34;&gt;SETNX&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;只有在 key 不存在时设置 key 的值&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/setrange.html&#34;&gt;SETRANGE&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;从偏移量 offset 开始用 value 覆写给定 key 所储存的字符串值&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/strlen.html&#34;&gt;STRLEN&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;返回 key 所储存的字符串值的长度&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/mset.html&#34;&gt;MSET&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;同时设置一个或多个 key-value 对&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/msetnx.html&#34;&gt;MSETNX&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;同时设置一个或多个 key-value 对&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/psetex.html&#34;&gt;PSETEX&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;以毫秒为单位设置 key 的生存时间&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/incr.html&#34;&gt;INCR&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;将 key 中储存的数字值增一&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/incrby.html&#34;&gt;INCRBY&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;将 key 所储存的值加上给定的增量值 (increment)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/incrbyfloat.html&#34;&gt;INCRBYFLOAT&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;将 key 所储存的值加上给定的浮点增量值 (increment)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/decr.html&#34;&gt;DECR&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;将 key 中储存的数字值减一&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;a href=&#34;https://redis.com.cn/commands/decrby.html&#34;&gt;DECRBY&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;将 key 所储存的值减去给定的减量值 ( decreme&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
 </content>
+        <category term="计算机科学" scheme="https://blog.qingyeling.cn/categories/computer-science/" />
+        <category term="Java" scheme="https://blog.qingyeling.cn/categories/computer-science/java/" />
+        <category term="Redis" scheme="https://blog.qingyeling.cn/categories/computer-science/java/redis/" />
+        <category term="后端" scheme="https://blog.qingyeling.cn/tags/java/" />
         <updated>2024-09-19T01:35:21.000Z</updated>
     </entry>
     <entry>
@@ -202,17 +120,6 @@
         <category term="动漫杂谈" scheme="https://blog.qingyeling.cn/categories/Dimension-Gate/Anime-Discussion/" />
         <category term="音乐" scheme="https://blog.qingyeling.cn/categories/Dimension-Gate/Anime-Discussion/Music/" />
         <updated>2024-09-17T09:54:10.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://blog.qingyeling.cn/2024/09/14/computer-science/java/test/%E6%B5%8B%E8%AF%95%E5%8A%A0%E8%BD%BD/</id>
-        <title>Test</title>
-        <link rel="alternate" href="https://blog.qingyeling.cn/2024/09/14/computer-science/java/test/%E6%B5%8B%E8%AF%95%E5%8A%A0%E8%BD%BD/"/>
-        <content type="html">&lt;h1 id=&#34;测试加载&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#测试加载&#34;&gt;#&lt;/a&gt; 测试加载&lt;/h1&gt;
-</content>
-        <category term="计算机科学" scheme="https://blog.qingyeling.cn/categories/computer-science/" />
-        <category term="Java" scheme="https://blog.qingyeling.cn/categories/computer-science/java/" />
-        <category term="test" scheme="https://blog.qingyeling.cn/categories/computer-science/java/test/" />
-        <updated>2024-09-13T16:53:54.000Z</updated>
     </entry>
     <entry>
         <id>https://blog.qingyeling.cn/2024/09/14/computer-science/java/docker/Docker%E7%9A%84%E5%AD%A6%E4%B9%A0/</id>
@@ -394,6 +301,255 @@
         <category term="计算机科学" scheme="https://blog.qingyeling.cn/categories/computer-science/" />
         <category term="Java" scheme="https://blog.qingyeling.cn/categories/computer-science/java/" />
         <category term="Docker" scheme="https://blog.qingyeling.cn/categories/computer-science/java/Docker/" />
+        <category term="后端" scheme="https://blog.qingyeling.cn/tags/java/" />
+        <updated>2024-09-13T16:49:40.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://blog.qingyeling.cn/2024/09/14/computer-science/java/Linux/Liunx%E7%9A%84%E5%AD%A6%E4%B9%A0/</id>
+        <title>Linux的学习</title>
+        <link rel="alternate" href="https://blog.qingyeling.cn/2024/09/14/computer-science/java/Linux/Liunx%E7%9A%84%E5%AD%A6%E4%B9%A0/"/>
+        <content type="html">&lt;h1 id=&#34;linux基础命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#linux基础命令&#34;&gt;#&lt;/a&gt; Linux 基础命令&lt;/h1&gt;
+&lt;h2 id=&#34;linux的目录结构&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#linux的目录结构&#34;&gt;#&lt;/a&gt; Linux 的目录结构&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027214128.png&#34; alt=&#34;image-20221027214128453&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;/&lt;/code&gt; ，根目录是最顶级的目录了&lt;/li&gt;
+&lt;li&gt;Linux 只有一个顶级目录： &lt;code&gt;/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;路径描述的层次关系同样适用 &lt;code&gt;/&lt;/code&gt;  来表示&lt;/li&gt;
+&lt;li&gt;/home/qingyeling/a.txt，表示根目录下的 home 文件夹内有 qingyeling 文件夹，内有 a.txt&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ls命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ls命令&#34;&gt;#&lt;/a&gt; ls 命令&lt;/h2&gt;
+&lt;p&gt;功能：列出文件夹信息&lt;/p&gt;
+&lt;p&gt;语法： &lt;code&gt;ls [-l -h -a] [参数]&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;参数：被查看的文件夹，不提供参数，表示查看当前工作目录&lt;/li&gt;
+&lt;li&gt;-l，以列表形式查看&lt;/li&gt;
+&lt;li&gt;-h，配合 - l，以更加人性化的方式显示文件大小&lt;/li&gt;
+&lt;li&gt;-a，显示隐藏文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;隐藏文件-文件夹&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#隐藏文件-文件夹&#34;&gt;#&lt;/a&gt; 隐藏文件、文件夹&lt;/h2&gt;
+&lt;p&gt;在 Linux 中以 &lt;code&gt;.&lt;/code&gt;  开头的，均是隐藏的。&lt;/p&gt;
+&lt;p&gt;默认不显示出来，需要 &lt;code&gt;-a&lt;/code&gt;  选项才可查看到。&lt;/p&gt;
+&lt;h2 id=&#34;pwd命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#pwd命令&#34;&gt;#&lt;/a&gt; pwd 命令&lt;/h2&gt;
+&lt;p&gt;功能：展示当前工作目录&lt;/p&gt;
+&lt;p&gt;语法： &lt;code&gt;pwd&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;cd命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#cd命令&#34;&gt;#&lt;/a&gt; cd 命令&lt;/h2&gt;
+&lt;p&gt;功能：切换工作目录&lt;/p&gt;
+&lt;p&gt;语法： &lt;code&gt;cd [目标目录]&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;参数：目标目录，要切换去的地方，不提供默认切换到 &lt;code&gt;当前登录用户HOME目录&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;home目录&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#home目录&#34;&gt;#&lt;/a&gt; HOME 目录&lt;/h2&gt;
+&lt;p&gt;每一个用户在 Linux 系统中都有自己的专属工作目录，称之为 HOME 目录。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;普通用户的 HOME 目录，默认在： &lt;code&gt;/home/用户名&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;root 用户的 HOME 目录，在： &lt;code&gt;/root&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;FinalShell 登陆终端后，默认的工作目录就是用户的 HOME 目录&lt;/p&gt;
+&lt;h2 id=&#34;相对路径-绝对路径&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#相对路径-绝对路径&#34;&gt;#&lt;/a&gt; 相对路径、绝对路径&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;相对路径，&lt;mark&gt;非&lt;/mark&gt; &lt;code&gt;/&lt;/code&gt;  开头的称之为相对路径&lt;/p&gt;
+&lt;p&gt;相对路径表示以 &lt;code&gt;当前目录&lt;/code&gt; 作为起点，去描述路径，如 &lt;code&gt;test/a.txt&lt;/code&gt; ，表示当前工作目录内的 test 文件夹内的 a.txt 文件&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;绝对路径，&lt;mark&gt;以&lt;/mark&gt; &lt;code&gt;/&lt;/code&gt;  开头的称之为绝对路径&lt;/p&gt;
+&lt;p&gt;绝对路径从 &lt;code&gt;根&lt;/code&gt; 开始描述路径&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;特殊路径符&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#特殊路径符&#34;&gt;#&lt;/a&gt; 特殊路径符&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;.&lt;/code&gt; ，表示当前，比如./a.txt，表示当前文件夹内的 &lt;code&gt;a.txt&lt;/code&gt;  文件&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;..&lt;/code&gt; ，表示上级目录，比如 &lt;code&gt;../&lt;/code&gt;  表示上级目录， &lt;code&gt;../../&lt;/code&gt;  表示上级的上级目录&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;~&lt;/code&gt; ，表示用户的 HOME 目录，比如 &lt;code&gt;cd ~&lt;/code&gt; ，即可切回用户 HOME 目录&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;mkdir命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#mkdir命令&#34;&gt;#&lt;/a&gt; mkdir 命令&lt;/h2&gt;
+&lt;p&gt;功能：创建文件夹&lt;/p&gt;
+&lt;p&gt;语法： &lt;code&gt;mkdir [-p] 参数&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;参数：被创建文件夹的路径&lt;/li&gt;
+&lt;li&gt;选项：-p，可选，表示创建前置路径&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;touch命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#touch命令&#34;&gt;#&lt;/a&gt; touch 命令&lt;/h2&gt;
+&lt;p&gt;功能：创建文件&lt;/p&gt;
+&lt;p&gt;语法： &lt;code&gt;touch 参数&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;参数：被创建的文件路径&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cat命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#cat命令&#34;&gt;#&lt;/a&gt; cat 命令&lt;/h2&gt;
+&lt;p&gt;功能：查看文件内容&lt;/p&gt;
+&lt;p&gt;语法： &lt;code&gt;cat 参数&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;参数：被查看的文件路径&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;more命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#more命令&#34;&gt;#&lt;/a&gt; more 命令&lt;/h2&gt;
+&lt;p&gt;功能：查看文件，可以支持翻页查看&lt;/p&gt;
+&lt;p&gt;语法： &lt;code&gt;more 参数&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;参数：被查看的文件路径&lt;/li&gt;
+&lt;li&gt;在查看过程中：
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;空格&lt;/code&gt; 键翻页&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;q&lt;/code&gt;  退出查看&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cp命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#cp命令&#34;&gt;#&lt;/a&gt; cp 命令&lt;/h2&gt;
+&lt;p&gt;功能：复制文件、文件夹&lt;/p&gt;
+&lt;p&gt;语法： &lt;code&gt;cp [-r] 参数1 参数2&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;参数 1，被复制的&lt;/li&gt;
+&lt;li&gt;参数 2，要复制去的地方&lt;/li&gt;
+&lt;li&gt;选项：-r，可选，复制文件夹使用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;示例：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;cp a.txt b.txt，复制当前目录下 a.txt 为 b.txt&lt;/li&gt;
+&lt;li&gt;cp a.txt test/，复制当前目录 a.txt 到 test 文件夹内&lt;/li&gt;
+&lt;li&gt;cp -r test test2，复制文件夹 test 到当前文件夹内为 test2 存在&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;mv命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#mv命令&#34;&gt;#&lt;/a&gt; mv 命令&lt;/h2&gt;
+&lt;p&gt;功能：移动文件、文件夹&lt;/p&gt;
+&lt;p&gt;语法： &lt;code&gt;mv 参数1 参数2&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;参数 1：被移动的&lt;/li&gt;
+&lt;li&gt;参数 2：要移动去的地方，参数 2 如果不存在，则会进行改名&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;rm命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#rm命令&#34;&gt;#&lt;/a&gt; rm 命令&lt;/h2&gt;
+&lt;p&gt;功能：删除文件、文件夹&lt;/p&gt;
+&lt;p&gt;语法： &lt;code&gt;rm [-r -f] 参数...参数&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;参数：支持多个，每一个表示被删除的，空格进行分隔&lt;/li&gt;
+&lt;li&gt;选项：-r，删除文件夹使用&lt;/li&gt;
+&lt;li&gt;选项：-f，强制删除，不会给出确认提示，一般 root 用户会用到&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;rm 命令很危险，一定要注意，特别是切换到 root 用户的时候。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;which命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#which命令&#34;&gt;#&lt;/a&gt; which 命令&lt;/h2&gt;
+&lt;p&gt;功能：查看命令的程序本体文件路径&lt;/p&gt;
+&lt;p&gt;语法： &lt;code&gt;which 参数&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;参数：被查看的命令&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;find命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#find命令&#34;&gt;#&lt;/a&gt; find 命令&lt;/h2&gt;
+&lt;p&gt;功能：搜索文件&lt;/p&gt;
+&lt;p&gt;语法 1 按文件名搜索： &lt;code&gt;find 路径 -name 参数&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;路径，搜索的起始路径&lt;/li&gt;
+&lt;li&gt;参数，搜索的关键字，支持通配符 *， 比如： &lt;code&gt;*&lt;/code&gt; test 表示搜索任意以 test 结尾的文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;grep命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#grep命令&#34;&gt;#&lt;/a&gt; grep 命令&lt;/h2&gt;
+&lt;p&gt;功能：过滤关键字&lt;/p&gt;
+&lt;p&gt;语法： &lt;code&gt;grep [-n] 关键字 文件路径&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;选项 - n，可选，表示在结果中显示匹配的行的行号。&lt;/li&gt;
+&lt;li&gt;参数，关键字，必填，表示过滤的关键字，带有空格或其它特殊符号，建议使用”” 将关键字包围起来&lt;/li&gt;
+&lt;li&gt;参数，文件路径，必填，表示要过滤内容的文件路径，可作为内容输入端口&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;参数文件路径，可以作为管道符的输入&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;wc命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#wc命令&#34;&gt;#&lt;/a&gt; wc 命令&lt;/h2&gt;
+&lt;p&gt;功能：统计&lt;/p&gt;
+&lt;p&gt;语法： &lt;code&gt;wc [-c -m -l -w] 文件路径&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;选项，-c，统计 bytes 数量&lt;/li&gt;
+&lt;li&gt;选项，-m，统计字符数量&lt;/li&gt;
+&lt;li&gt;选项，-l，统计行数&lt;/li&gt;
+&lt;li&gt;选项，-w，统计单词数量&lt;/li&gt;
+&lt;li&gt;参数，文件路径，被统计的文件，可作为内容输入端口&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;参数文件路径，可作为管道符的输入&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;管道符&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#管道符&#34;&gt;#&lt;/a&gt; 管道符 |&lt;/h2&gt;
+&lt;p&gt;写法： &lt;code&gt;|&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;功能：将符号左边的结果，作为符号右边的输入&lt;/p&gt;
+&lt;p&gt;示例：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;cat a.txt | grep qingyeling&lt;/code&gt; ，将 cat a.txt 的结果，作为 grep 命令的输入，用来过滤 &lt;code&gt;qingyeling&lt;/code&gt;  关键字&lt;/p&gt;
+&lt;p&gt;可以支持嵌套：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;cat a.txt | grep qingyeling | grep itcast&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;echo命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#echo命令&#34;&gt;#&lt;/a&gt; echo 命令&lt;/h2&gt;
+&lt;p&gt;功能：输出内容&lt;/p&gt;
+&lt;p&gt;语法： &lt;code&gt;echo 参数&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;参数：被输出的内容&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;反引号&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#反引号&#34;&gt;#&lt;/a&gt; ` 反引号&lt;/h2&gt;
+&lt;p&gt;功能：被两个反引号包围的内容，会作为命令执行&lt;/p&gt;
+&lt;p&gt;示例：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;echo `pwd`，会输出当前工作目录&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tail命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#tail命令&#34;&gt;#&lt;/a&gt; tail 命令&lt;/h2&gt;
+&lt;p&gt;功能：查看文件尾部内容&lt;/p&gt;
+&lt;p&gt;语法： &lt;code&gt;tail [-f] 参数&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;参数：被查看的文件&lt;/li&gt;
+&lt;li&gt;选项：-f，持续跟踪文件修改&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;head命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#head命令&#34;&gt;#&lt;/a&gt; head 命令&lt;/h2&gt;
+&lt;p&gt;功能：查看文件头部内容&lt;/p&gt;
+&lt;p&gt;语法： &lt;code&gt;head [-n] 参数&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;参数：被查看的文件&lt;/li&gt;
+&lt;li&gt;选项：-n，查看的行数&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;重定向符&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#重定向符&#34;&gt;#&lt;/a&gt; 重定向符&lt;/h2&gt;
+&lt;p&gt;功能：将符号左边的结果，输出到右边指定的文件中去&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;&amp;gt;&lt;/code&gt; ，表示覆盖输出&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;gt;&amp;gt;&lt;/code&gt; ，表示追加输出&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;权限控制&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#权限控制&#34;&gt;#&lt;/a&gt; 权限控制&lt;/h1&gt;
+&lt;h2 id=&#34;su命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#su命令&#34;&gt;#&lt;/a&gt; su 命令&lt;/h2&gt;
+&lt;p&gt;切换用户&lt;/p&gt;
+&lt;p&gt;语法： &lt;code&gt;su [-] [用户]&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027222021.png&#34; alt=&#34;image-20221027222021619&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sudo命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#sudo命令&#34;&gt;#&lt;/a&gt; sudo 命令&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027222035.png&#34; alt=&#34;image-20221027222035337&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;比如：&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;qingyeling &lt;span class=&#34;token assign-left variable&#34;&gt;ALL&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;ALL&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;       NOPASSWD: ALL&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;在 visudo 内配置如上内容，可以让 qingyeling 用户，无需密码直接使用 &lt;code&gt;sudo&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;chmod命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#chmod命令&#34;&gt;#&lt;/a&gt; chmod 命令&lt;/h2&gt;
+&lt;p&gt;修改文件、文件夹权限&lt;/p&gt;
+&lt;p&gt;语法： &lt;code&gt;chmod [-R] 权限 参数&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;权限，要设置的权限，比如 755，表示： &lt;code&gt;rwxr-xr-x&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027222157.png&#34; alt=&#34;image-20221027222157276&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;参数，被修改的文件、文件夹&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;选项 - R，设置文件夹和其内部全部内容一样生效&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;chown命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#chown命令&#34;&gt;#&lt;/a&gt; chown 命令&lt;/h2&gt;
+&lt;p&gt;修改文件、文件夹所属用户、组&lt;/p&gt;
+&lt;p&gt;语法： &lt;code&gt;chown [-R] [用户][:][用户组] 文件或文件夹&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;用户组管理&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#用户组管理&#34;&gt;#&lt;/a&gt; 用户组管理&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027222354.png&#34; alt=&#34;image-20221027222354498&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;用户管理&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#用户管理&#34;&gt;#&lt;/a&gt; 用户管理&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027222407.png&#34; alt=&#34;image-20221027222407618&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;genenv命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#genenv命令&#34;&gt;#&lt;/a&gt; genenv 命令&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;getenv group&lt;/code&gt; ，查看系统全部的用户组&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;getenv passwd&lt;/code&gt; ，查看系统全部的用户&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;env命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#env命令&#34;&gt;#&lt;/a&gt; env 命令&lt;/h2&gt;
+&lt;p&gt;查看系统全部的环境变量&lt;/p&gt;
+&lt;p&gt;语法： &lt;code&gt;env&lt;/code&gt;&lt;/p&gt;
+</content>
+        <category term="计算机科学" scheme="https://blog.qingyeling.cn/categories/computer-science/" />
+        <category term="Java" scheme="https://blog.qingyeling.cn/categories/computer-science/java/" />
+        <category term="Linux" scheme="https://blog.qingyeling.cn/categories/computer-science/java/linux/" />
         <category term="后端" scheme="https://blog.qingyeling.cn/tags/java/" />
         <updated>2024-09-13T16:49:40.000Z</updated>
     </entry>
